@@ -1,5 +1,7 @@
-console.log('Hola mundo = clasico');
+const color = require('colors');
 
-console.log('Calculadora personal');
+console.log('Hola mundo = clasico'.bgCyan.black);
 
-console.log('Recorrer array');
+console.log('Calculadora personal'.underline.white.bgGreen);
+
+console.log('Recorrer array'.black.bgBlue);
